@@ -9,3 +9,26 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+@keyframes size {
+
+from {
+scale: 1;
+}
+
+to {
+scale: 1.25;
+
+}
+
+}
+
+@keyframes appeare-sparks {
+
+
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
