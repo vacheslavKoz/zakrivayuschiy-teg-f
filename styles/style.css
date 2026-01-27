@@ -95,7 +95,7 @@ container-name: main-content;
 width: 100%;
 }
 
-@container  main-content (min-width:375px){
+@container  main-content (min-width:375px) {
   
     .save-on-memory {
       align-self: center;
@@ -113,7 +113,7 @@ width: 100%;
   
   }
 
-   button.save-on-memory svg{
+   button.save-on-memory svg {
   
    width: clamp(
       21px,
@@ -140,9 +140,7 @@ gap: 52px;
 }
 }
 
-.card {
-padding-bottom: 25px;
-}
+
 
 .card div {
 width: 100%;
@@ -168,6 +166,7 @@ flex-wrap: wrap;
 gap: 25px;
 border: 2px solid #000000;
 background-color: #fff;
+padding-bottom: 25px;
 }
 
 .card h2 {
@@ -233,11 +232,6 @@ letter-spacing: 0;
 
 }
 
-.card__like-button {
-  box-shadow: 0px 0px 0px transparent;
-  transition: box-shadow 0.3s ease;
-}
-
 
 .card__like-button:focus {
   outline: none;
@@ -245,10 +239,6 @@ letter-spacing: 0;
   transition: box-shadow 0.3s ease;
 }
 
-.card__icon-button {
-  border: 2px solid transparent ;
-  transition: border 0.3s ease;
-}
 
 
 .card__icon-button:focus-visible {
@@ -333,9 +323,9 @@ gap: 7px;
 }
 
 
-
-
 .card__icon-button {
+border: 2px solid transparent ;
+transition: border 0.3s ease;
 padding-inline: 0px;
 width: 39px;
 height: 36px;
@@ -344,6 +334,8 @@ align-self: center;
 }
 
 .card__like-button {
+box-shadow: 0px 0px 0px transparent;
+transition: box-shadow 0.3s ease;
 padding-block: 0px;
 width: 130px;
 height: 38px;
