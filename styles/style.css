@@ -406,7 +406,7 @@ dialog[open] button {
   filter: brightness;
 }
 .card-filter-two {
-  filter: contrast(200%);
+  filter: grayscale(0.8) opacity(0.6) brightness(0.9);
 }
 .card-filter-three {
   filter: grayscale(100%);
