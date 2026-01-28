@@ -312,9 +312,10 @@ transition: left 0.5s ease-in-out;
 }
 
 dialog::backdrop {
- 
+background: rgba(0, 0, 0, 0.7);
+/*
 background: rgba(0, 0, 0, 0.7); 
-
+*/
 }
 
 .card div.wrap-heart-and-like-button {
@@ -522,7 +523,7 @@ dialog[open] button {
 
 .card-filter-five {
 
-  filter: invert(90%);
+  filter: invert(90%) , blur(2) , contrast(1.5);
 }
 
 .card-filter-six {
