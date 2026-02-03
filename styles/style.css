@@ -139,7 +139,7 @@ main {
     position: absolute;
     top: calc(100% + 25px);
     right: 25px;
-    font-family: var(--accent-font);
+    font-family: var(--accent-font), sans-serif;
     font-weight: var(--accent-font-weight);
     font-style: normal;
     font-size: 14px;
