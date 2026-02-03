@@ -56,7 +56,7 @@ h1 {
     margin-block-end: 0px;
 }
 
-header h2 {
+.header h2 {
     font-family: var(--accent-font), sans-serif;
     font-weight: var(--accent-font-weight);
     line-height: 100%;
@@ -437,3 +437,4 @@ dialog[open] button {
         padding-bottom: 10px;
     }
 }
+
