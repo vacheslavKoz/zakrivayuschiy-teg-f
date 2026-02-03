@@ -10,21 +10,16 @@
 
 */
 @keyframes size {
+    from {
+        scale: 1;
+    }
 
-from {
-scale: 1;
-}
-
-to {
-scale: 1.25;
-
-}
-
+    to {
+        scale: 1.25;
+    }
 }
 
 @keyframes appeare-sparks {
-
-
     from {
         opacity: 0;
     }
