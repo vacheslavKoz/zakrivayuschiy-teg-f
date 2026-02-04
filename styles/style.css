@@ -13,6 +13,7 @@ html {
     width: 100%;
 }
 
+
 .page {
     min-inline-size: 320px;
     min-block-size: 100dvb;
@@ -204,6 +205,7 @@ p {
     outline: none;
     box-shadow: 0px 0px 0px transparent;
     transition: box-shadow 0.3s ease;
+    border: 2px solid #000000;
 }
 
 .button-common-styles:focus {
@@ -245,7 +247,6 @@ button.save-on-memory .button__text {
 .button-common-styles:hover::before {
     mix-blend-mode: difference;
     left: 0;
-    transition: left 0.5s ease-in-out;
 }
 
 .card div.wrap-heart-and-like-button {
@@ -348,8 +349,8 @@ dialog[open] {
     justify-content: center;
     align-items: center;
     width: clamp(341px, calc(341px + 12 * ((100vw - 375px) / 1065)), 353px);
-    gap: 30px;
-    padding-top: 30px;
+    gap: 29px;
+    padding-top: 31px;
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
@@ -391,6 +392,8 @@ dialog[open] button {
     transform: none;
     height: 38px;
     width: clamp(261px, calc(261px + 32px * ((100cqw - 341px) / 12px)), 293px);
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .card-filter-brigtness {
